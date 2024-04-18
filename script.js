@@ -151,7 +151,6 @@ nextButton.addEventListener('click', () => {
     if (currentQuestionIndex < questions.length) {
         displayQuestion(currentQuestionIndex); 
     } else {
- 
         //quiz is over so we hide the quiz
         nextButton.style.display = 'none';
         quizContainer.style.display = 'none';

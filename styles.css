@@ -1,9 +1,8 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
-    background-color: rgb(242, 242, 242);
+    background-color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
-    border-radius: 20px;
 }
 
 header {
@@ -13,6 +12,7 @@ header {
     justify-content: center;
     text-align: center;
     align-items: center;
+    border-radius: 10px;
 }
 
 #nameForm {
@@ -29,6 +29,7 @@ header {
     align-items: center;
     text-align: center;
     padding: 20px;
+    border-radius: 10px;
 }
 
 #quizContainer {
@@ -45,33 +46,35 @@ header {
     margin: 0 auto;
     position: relative;
     padding-bottom: 20px;
+    border-radius: 10px;
 }
 
 .buttons {
     display: flex;
     justify-content: center;
-    position: absolute;
     bottom: 20%;
     margin: 0;
     padding: 10px;
+    position: absolute;
 }
 
 .responseButton {
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(221, 253, 231);
     border-radius: 5px;
     width: 15vw;
     height: 15vh;
     margin: 2px;
     font-size: medium;
     font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    transition: background-color 0.3s;
 }
 
 .responseButton:hover, #nextQuestion:hover {
-    background-color: gray;
+    background-color: rgb(189, 223, 253);
 }
 
 #nextQuestion {
-    background-color: rgb(210, 254, 255);
+    background-color: rgb(118, 255, 159);
     width: 30vw;
     height: 8vh;
     font-size: large;
@@ -81,4 +84,5 @@ header {
     bottom: 5%;
     left: 50%;
     transform: translateX(-50%);
+    transition: background-color 0.3s;
 }
