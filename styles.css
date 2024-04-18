@@ -1,0 +1,84 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    background-color: rgb(242, 242, 242);
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+
+header {
+    background-color: aliceblue;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#nameForm {
+    position: absolute;
+    top: 40vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    height: 30vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#quizContainer {
+    background-color: aliceblue;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80vw;
+    height: 50vh;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 20%;
+    margin: 0;
+    padding: 10px;
+}
+
+.responseButton {
+    background-color: rgb(207, 207, 207);
+    border-radius: 5px;
+    width: 15vw;
+    height: 15vh;
+    margin: 2px;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+}
+
+.responseButton:hover, #nextQuestion:hover {
+    background-color: gray;
+}
+
+#nextQuestion {
+    background-color: rgb(210, 254, 255);
+    width: 30vw;
+    height: 8vh;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}

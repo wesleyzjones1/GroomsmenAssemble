@@ -5,41 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ask Your Groomsmen</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="nameForm">
+    
+    <header>
+        <h1>Wesley's wedding invite</h1>
+    </header>
+    <br>
+    
+    <div id="nameForm" style="">
         <form>
-            <h1>Will You Be My Groomsman?</h1>
-            <label for="name">Enter your name:</label>
+            <h3>Hey, I created this little website with a little quiz that I want you to take.  
+                Please type your first name below and let me know what you think.</h3>
+            <br>
+            <label for="name">Enter your first name:</label>
             <input type="text" id="name" name="name" required>
             <button type="submit" id="submitButton">Submit</button>
         </form>
     </div>
 
     <div id="quizContainer" style="display: none;">
-        <h2 id="question"></h2>
+        <h1 id="question"></h1>
         <h3 id="response"></h3>
-        <button class="responseButton">1</button>
-        <button class="responseButton">2</button>
-        <button class="responseButton">3</button>
-        <button class="responseButton">4</button>
-        <button class="responseButton">5</button>
-
+        
+        <div class="buttons">
+            <button class="responseButton">1</button>
+            <button class="responseButton">2</button>
+            <button class="responseButton">3</button>
+            <button class="responseButton">4</button>
+            <button class="responseButton">5</button>
+        </div>
         <button id="nextQuestion">Next Question</button>
     </div>
 
-    <div id="skyler" style="display: none;">
-        <h1>Hi Skyler</h1>
-    </div>
 
-    <div id="branson" style="display: none;">
-        <h1>Hi branson</h1>
-    </div>
+        <div id="skyler" style="display: none;">
+            <h1>Hi Skyler</h1>
+        </div>
 
-    <div id="unknown" style="display: none;">
-        <h1>Unknown name</h1>
-    </div>    
+        <div id="branson" style="display: none;">
+            <h1>Hi branson</h1>
+        </div>
+
+        <div id="unknown" style="display: none;">
+            <h1>Unknown name, please restart and type your first name</h1>
+        </div>    
     
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
 </html>
