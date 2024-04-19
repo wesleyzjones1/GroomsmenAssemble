@@ -9,12 +9,18 @@ const response = document.getElementById('response');
 
 const skylerDiv = document.getElementById('skyler');
 const bransonDiv = document.getElementById('branson');
+const tylerDiv = document.getElementById('tyler');
+const boogsDiv = document.getElementById('boogs');
+const hbDiv = document.getElementById('hb');
+const bubbaDiv = document.getElementById('bubba');
+const nickDiv = document.getElementById('nick');
+const benDiv = document.getElementById('ben');
 
 const unknownDiv = document.getElementById('unknown');
 
 
 
-let currentQuestionIndex = 0; //starts at the first question
+let currentQuestionIndex = 4; //starts at the first question
 
 const questions = [
     {
@@ -160,19 +166,53 @@ nextButton.addEventListener('click', () => {
         quizContainer.style.display = 'none';
         console.log("check for names");
         const name = nameInput.value.trim().toLowerCase();
+        
         // display div based on name
         switch(name) {
             case 'skyler':
             case 'sky':
-                skylerDiv.style.display = 'block';
-                break;
+            skylerDiv.style.display = 'block';
+            break;
+        
             case 'branson':
-                console.log("Branson");
-                bransonDiv.style.display = 'block'
-                break;
-            // Add more cases for other names if needed
+            bransonDiv.style.display = 'block'
+            break;
+
+            case 'tyler':
+            tylerDiv.style.display = 'block'
+            break;
+
+            case 'boogs':
+            boogsDiv.style.display = 'block'
+            break;
+
+            case 'hb':
+            case 'honey bear':
+            case 'honeybear':
+            case 'immanuel':
+            case 'immanual':
+            hbDiv.style.display = 'block'
+            break;
+
+            case 'bubba':
+            case 'barak':
+            case 'barack':
+            bubbaDiv.style.display = 'block'
+            break;
+
+            case 'nic':
+            case 'nick':
+            case 'nicholas':
+            nickDiv.style.display = 'block'
+            break;
+
+            case 'ben':
+            case 'benjamin':
+            benDiv.style.display = 'block'
+            break;
+            
             default:
-                unknownDiv.style.display = 'block';
+            unknownDiv.style.display = 'block';
         }
     }
 });
