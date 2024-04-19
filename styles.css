@@ -56,6 +56,7 @@ header {
     margin: 0;
     padding: 10px;
     position: absolute;
+    flex-wrap: wrap;
 }
 
 .responseButton {
@@ -74,7 +75,7 @@ header {
 }
 
 #nextQuestion {
-    background-color: rgb(118, 255, 159);
+    background-color: rgb(147, 255, 179);
     width: 30vw;
     height: 8vh;
     font-size: large;
@@ -85,4 +86,31 @@ header {
     left: 50%;
     transform: translateX(-50%);
     transition: background-color 0.3s;
+}
+.groomsmen {
+    background-color: aliceblue;
+    width: 80vw;
+    padding: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    width: 50vw;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+/* adjust quiz size when seen through phone */
+@media (max-width: 500px) {
+    .responseButton {
+        width: 25vw;
+    }
+
+        #quizContainer {
+            height: 80vh;
+            
+        }
 }

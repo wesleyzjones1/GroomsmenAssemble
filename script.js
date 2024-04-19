@@ -12,6 +12,10 @@ const bransonDiv = document.getElementById('branson');
 
 const unknownDiv = document.getElementById('unknown');
 
+
+
+let currentQuestionIndex = 0; //starts at the first question
+
 const questions = [
     {
         questionText: "How awesome am I",
@@ -88,13 +92,13 @@ const questions = [
         
     },
     {
-        questionText: "Will you be in my wedding?",
+        questionText: "Will you be coming to my wedding?",
         responses: [
             "Kissing a frog is pretty bad, I know you just clicked this to see what I would say.",
             "How could you say that to me, I want you to be in it, try again.",
             "Why aren't you sure??? Try again.",
             "I really want you to be, please try again.",
-            `Thank you, I'm so excited for you to stand beside me during the most important day of my life.`
+            `Thank you, I'm so excited that you're coming.`
         ],
         
         buttonText: [
@@ -102,12 +106,12 @@ const questions = [
             "No, I dont want to be", 
             "I'm not really sure", 
             "not sure, I might be", 
-            "Yes, of course I'll be in your wedding"]
+            "Yes, of course I'll be coming to your wedding"]
         
     },
 ]; //end of array
 
-let currentQuestionIndex = 0; //starts at the first question
+
 
 function displayQuestion(index) {
     //display question
@@ -159,6 +163,7 @@ nextButton.addEventListener('click', () => {
         // display div based on name
         switch(name) {
             case 'skyler':
+            case 'sky':
                 skylerDiv.style.display = 'block';
                 break;
             case 'branson':
