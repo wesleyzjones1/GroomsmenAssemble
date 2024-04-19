@@ -20,7 +20,7 @@ const unknownDiv = document.getElementById('unknown');
 
 
 
-let currentQuestionIndex = 4; //starts at the first question
+let currentQuestionIndex = 0; //starts at the first question
 
 const questions = [
     {
@@ -101,15 +101,15 @@ const questions = [
         questionText: "Will you be coming to my wedding?",
         responses: [
             "Kissing a frog is pretty bad, I know you just clicked this to see what I would say.",
-            "How could you say that to me, I want you to be in it, try again.",
+            "How could you say that to me, I want you to come, try again.",
             "Why aren't you sure??? Try again.",
-            "I really want you to be, please try again.",
+            "I really want you to, please try again.",
             `Thank you, I'm so excited that you're coming.`
         ],
         
         buttonText: [
             "Absolutely not, I would rather kiss a frog", 
-            "No, I dont want to be", 
+            "No, I dont want to come", 
             "I'm not really sure", 
             "not sure, I might be", 
             "Yes, of course I'll be coming to your wedding"]
