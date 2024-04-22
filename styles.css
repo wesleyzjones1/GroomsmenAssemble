@@ -108,7 +108,9 @@ img {
 /* adjust size when seen through phone */
 @media (max-width: 600px) {
     .responseButton {
-        width: 25vw;
+        width: 13vw;
+        font-size: 9px;
+        text-align: center;
     }
 
     #quizContainer {
