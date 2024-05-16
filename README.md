@@ -2,7 +2,7 @@
 
 ### Home Screen
 
-![](images\homeScreen.png)
+![](images/homeScreen.png)
 
 Welcome to the Groomsmen Assemble Website! This website is designed to ask your friends to be groomsmen in your wedding in a fun and interactive way. Users will be prompted to enter their name and then answer a series of questions. Based on their answers, they will receive different responses.
 
@@ -15,15 +15,15 @@ Welcome to the Groomsmen Assemble Website! This website is designed to ask your 
 
 #### Incorrect Answer
 
-![](images\incorrectAnswer.png)
+![](images/incorrectAnswer.png)
 
 #### Correct Answer
 
-![](images\correctAnswer.png)
+![](images/correctAnswer.png)
 
 #### Final Screen for Non Groomsmen
 
-![](images\finalScreen.png)
+![](images/finalScreen.png)
 
 ## Usage
 
