@@ -7,6 +7,7 @@ Welcome to the Groomsmen Invitation Website! This website is designed to ask you
 - **Interactive Quiz**: Users can answer questions to determine if they will be asked to be a groomsman.
 - **Customizable Responses**: Responses vary based on user input.
 - **Responsive Design**: The website is designed to work well on both desktop and mobile devices.
+- **Final Screen**: When the quiz is over, the user will see a personal page based on the name they put in.
 
 ## Usage
 
